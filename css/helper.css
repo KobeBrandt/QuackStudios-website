@@ -1,0 +1,8 @@
+/* For aditional things */
+.overlay-link{
+    position: absolute;
+    inset: 0;
+    text-indent: 100%;
+    white-space: nowrap;
+    overflow: hidden;
+}
