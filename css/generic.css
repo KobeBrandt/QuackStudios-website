@@ -2,3 +2,18 @@
 *, *::before, *::after {
     box-sizing: border-box;
 }
+:root{
+    font-family: "Raleway", sans-serif;
+    line-height: 1.6;
+    scroll-behavior: smooth;
+
+    background-color: var(--light-mode-background);
+    color: var(--light-mode-text);
+}
+header{
+    box-shadow: 0 0 1rem;
+}
+body{
+    padding: 0;
+    margin: 0;
+}

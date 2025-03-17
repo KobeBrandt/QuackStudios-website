@@ -3,6 +3,12 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://unpkg.com/@csstools/normalize.css" rel="stylesheet" />
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Raleway">
+    <link rel="stylesheet" href="./css/generic.css">
+    <link rel="stylesheet" href="./css/base.css">
+    <link rel="stylesheet" href="./css/components.css">
+    <link rel="stylesheet" href="./css/layout.css">
     <title>QuackStudios</title>
 </head>
 <body>
@@ -10,40 +16,52 @@
         <nav>
             <ul>
                 <li>
-                    <img src="./images/logo.png" alt="">
+                    <a href=""><img src="./images/logo.png" alt=""></a>
                 </li>
                 <li>
                     <a href="">Home</a>
                 </li>
                 <li>
-                    <a href="">Projects</a>
+                    <a href="">About us</a>
                 </li>
                 <li>
-                    <a href=""></a>
+                    <a href="">Projects</a>
                 </li>
             </ul>
         </nav>
     </header>
-    <main>
-        <article>
-            <h1>Welcome to<br> QuackStudios</h1>
-            <p>One pixel at a time</p>
-            <a href=""></a>
+    <main  class="container">
+        <article class="intro">
+            <div>
+                <h1>Welcome to<br> <span class="highlight">&lt;</span>QuackStudios<span class="highlight">&gt;</span></h1>
+                <p>One pixel at a time</p>
+                <a href="" class="button">About us</a>
+            </div>
             <img src="./images/icon.png" alt="logo">
         </article>
         <section>
             <h2>Top projects</h2>
             <ul>
                 <li>
-                    <h3></h3>
+                    <h3>Mission Mothership</h3>
+                </li>
+                <li>
+                    <h3>More And More Armor</h3>
+                </li>
+                <li>
+                    <h3>Crafter God</h3>
                 </li>
             </ul>
         </section>
         <section>
             <h2>Also find us on</h2>
-
+            <ul>
+                <li>Discord</li>
+            </ul>
         </section>
     </main>
-    <footer></footer>
+    <footer>
+
+    </footer>
 </body>
 </html>
