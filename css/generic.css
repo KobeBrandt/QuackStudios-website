@@ -1,0 +1,4 @@
+/* For elements that are on every page */
+*, *::before, *::after {
+    box-sizing: border-box;
+}
