@@ -39,9 +39,6 @@ nav{
             }
         }
     }
-    footer{
-        
-    }
     @media (min-width: 46.875em) {
         padding-inline: 1rem;
         max-width: 80rem;
@@ -64,6 +61,17 @@ nav{
             }
         }
         
+    }
+}
+footer{
+    margin-top: 5rem;
+    padding: 1rem;
+    text-align: center;
+    p{
+        margin: 0;
+        a{
+            color: inherit;
+        }
     }
 }
 .intro{
