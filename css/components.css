@@ -39,6 +39,9 @@ nav{
             }
         }
     }
+    footer{
+        
+    }
     @media (min-width: 46.875em) {
         padding-inline: 1rem;
         max-width: 80rem;
