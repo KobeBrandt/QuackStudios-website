@@ -164,3 +164,10 @@ footer{
         }
     }
 }
+.date{
+    margin: 0;
+    font-weight: bold;
+}
+.bulk{
+    max-width: 45rem;
+}
