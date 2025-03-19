@@ -121,8 +121,6 @@ nav{
         flex-wrap: wrap;
 
         li{
-            position: relative;
-            display: flex;
             width: 25rem;
             flex-basis: 18rem;
             box-shadow: 0 0 .2rem;
@@ -135,4 +133,23 @@ nav{
         }
     }
 
+}
+.social{
+    list-style: none;
+    display: flex;
+    flex-wrap: wrap;
+    gap: 2rem;
+    padding: 0;
+    li{
+        position: relative;
+        background-color: var(--white);
+        font-size: 1.5rem;
+        padding: 0.5rem;
+        border-radius: 0.5rem;
+        box-shadow: 0 0 .2rem;
+        width: 15rem;
+        h3,p{
+            margin: 0;
+        }
+    }
 }
