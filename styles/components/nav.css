@@ -1,0 +1,105 @@
+.navigation{
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    a{
+        display:block;
+        text-decoration: none;
+        font-weight: bold;
+        text-align: center;
+        font-size: 110%;
+    }
+    p{
+        font-size: 2rem;
+        margin-bottom: 0;
+        border-bottom: 0.2rem solid var(--primary);
+    }
+    img{
+        font-size: 2rem;
+        border-radius: var(--round);
+    }
+    ul{
+        list-style: none;
+        padding-inline: 0;
+        li{
+            border-bottom: 0.1rem solid var(--primary);
+            padding: 0.5rem;
+        }
+        .curent{
+            text-decoration: underline;
+        }
+    }
+    @media (min-width: 46.875em) {
+        max-width: var(--containerWidth);
+        margin-inline: auto;
+        padding-inline: var(--containerPadding);
+        flex-direction: row;
+        border-bottom: 0.2rem solid var(--primary);
+        align-items: baseline;
+        p{
+            margin-right: auto;
+            margin-top: 0;
+            border: none;
+            a{
+                text-align: initial;
+            }
+        }
+        img{
+            width: 3rem;
+        }
+        ul{
+            justify-content: right;
+            display: flex;
+            gap: 1rem;
+            margin: 0;
+            li{
+                border-bottom: none;
+                a{
+                    &:hover{
+                        animation: hover 1s ease-in-out;
+                    }
+                }
+            }
+        }
+    }
+}
+
+.navigation-solid{
+    color: var(--primary-text);
+    background-color: var(--primary);
+    p{
+        border-color: var(--primary-text);
+    }
+    ul{
+        list-style: none;
+        padding-inline: 0;
+        li{
+            border-color: var(--primary-text);
+        }
+    }
+}
+
+.navigation-breadcrumb{
+    max-width: var(--containerWidth);
+    margin-inline: auto;
+    padding-inline: var(--containerPadding);
+    ol{
+        margin: 0;
+        padding: 0;
+        list-style: none;
+        display: flex;
+        flex-wrap: wrap;
+        li{
+            &::after{
+                content: ">";
+                margin-inline: 0.5rem;
+                text-decoration: none;
+            }
+            &:last-child{
+                &::after{
+                    content: none;
+                }
+            }
+        }
+    }
+}

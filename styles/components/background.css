@@ -1,0 +1,4 @@
+.background-primary{
+    background: var(--primary);
+    color: var(--primary-text);
+}

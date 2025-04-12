@@ -1,0 +1,7 @@
+.tableOfContents{
+    li{
+        a{
+            color: inherit;
+        }
+    }
+}

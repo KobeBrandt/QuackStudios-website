@@ -1,0 +1,36 @@
+:root{
+    /* Colors */
+    --primary: #f9d258;
+    --primary-text: #ffffff;
+    --error: #b50000;
+    --alert: #c1da0b;
+    --disabled: #494949;
+
+
+    /* Light mode */
+    --light-mode-text: #000000;
+    --light-mode-bg: #ffffff;
+
+    /* dark mode */
+    --dark-mode-text: #ffffff;
+    --dark-mode-bg: #404040;
+
+    /* combination */
+    color-scheme: light dark;
+    --text: light-dark(var(--light-mode-text), var(--dark-mode-text));
+    --bg: light-dark(var(--light-mode-bg), var(--dark-mode-bg));
+
+    /* reverse */
+    --text-reverse: light-dark( var(--dark-mode-text),var(--light-mode-text));
+    --bg-reverse: light-dark(var(--dark-mode-bg), var(--light-mode-bg));
+
+    /* implementation */
+    color: var(--text);
+    background-color: var(--bg);
+
+
+    /* just colors */
+    --white: #ffffff;
+    --light-gray: #d6d6d6;
+
+}

@@ -1,0 +1,20 @@
+.hero{
+    padding: 10rem;
+    text-align: center;
+    color: var(--white);
+    .big{
+        font-weight: bold;
+        font-size: 4rem;
+    }
+    .extra{
+        font-size: 2rem;
+    }
+}
+.hero-img{
+    padding: 0;
+    background-image: url(https://placehold.co/300x100);
+    background-size: 100%;
+    height: 30rem;
+    align-content: center;
+
+}

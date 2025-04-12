@@ -1,0 +1,8 @@
+.codeblock {
+    background-color: var(--light-gray);
+    padding: 1rem;
+    color: var(--light-mode-text);
+    font-family: monospace;
+    border-radius: 0.2rem;
+    overflow-x: hidden;
+}

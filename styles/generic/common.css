@@ -1,0 +1,14 @@
+*, *::before, *::after {
+    box-sizing: border-box;
+}
+body {
+    min-height: 100vh;
+}
+:focus-visible {
+    outline: 3px solid var(--text);
+    outline-offset: 0.5rem;
+    border-radius: 0.2rem;
+}
+a{
+    color: inherit;
+}

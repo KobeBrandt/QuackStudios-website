@@ -1,0 +1,14 @@
+.notification{
+    border: 0.2rem solid var(--primary);
+    border-radius: 0.2rem;
+    padding: 0.5rem;
+    font-weight: bold;
+    text-align: center;
+    font-size: 1.5rem;
+}
+.error{
+    border-color: var(--error);
+}
+.alert{
+    border-color: var(--alert);
+}

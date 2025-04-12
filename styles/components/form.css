@@ -1,0 +1,96 @@
+.form{
+    display: flex;
+    flex-direction: column;
+    .form-item{
+        display: flex;
+        flex-direction: column;
+        gap: 0.1rem;
+        margin-bottom: 1.75em;
+    }
+    .form-combined{
+        display: flex;
+        gap: 1rem;
+        width: 100%;
+        div{
+            width: 25%;
+        }
+        .large{
+            width: 75%;
+        }
+    }
+    label{
+        display: block;
+        font-size: 1em;
+        font-weight: 600;        
+    }
+    input{
+        font-size: 1rem;
+        padding: 0.5em;
+        width: 90%; 
+        width: calc(100% - 1.5em);
+        border-radius: 0.2rem;
+    }
+    textarea{
+        font-size: 1rem;
+        padding: 0.5em;
+        width: 90%; 
+        width: calc(100% - 1.5em);
+        border-radius: 0.2rem;
+    }
+    select{
+        display: block;
+        background-color: inherit;
+        font-size: 1rem;
+    }
+    fieldset {
+        border: 0;
+        padding: 0;
+        .radiobutton,
+        .checkbox{
+            display: flex;
+            flex-direction: row;
+            align-items: center;
+            gap: 0.5em;
+            margin-bottom: 0.5em;
+            input{
+                width: 3%;
+            }
+            label{
+                width: auto;
+                font-weight: normal;
+            }
+        }
+        .label{
+            display: block;
+            font-size: 1em;
+            font-weight: 600;
+            &:focus{
+                border-color: var(--primary);
+            }
+        }
+    }
+    .button{
+        width: 25%;
+        font-size: 1em;
+    }
+    .error{
+        display: block;
+        font-weight: normal;
+        margin-top: 0.25em;
+        color: var(--error);
+        margin: 0;
+        padding: 0;
+    }
+    .input-error{
+        border-color: var(--error);
+    }
+    .disabled{
+        color: var(--disabled);
+        border-color: var(--disabled);
+        &:hover{
+            input{
+                cursor: not-allowed;
+            }
+        }
+    }
+}

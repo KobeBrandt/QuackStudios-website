@@ -1,0 +1,45 @@
+/* Links all to other css files */
+
+/* generic */
+/* @import "./generic"; */
+@import "./generic/common.css";
+@import "./generic/reset.css";
+
+/* base */
+/* @import "./base"; */
+@import "./base/other.css";
+@import "./base/colors.css";
+@import "./base/typografie.css";
+@import "./base/rem.css";
+
+/* utilities */
+/* @import "./utilities"; */
+@import "./utilities/animations.css";
+@import "./utilities/sr.css";
+@import "./utilities/skipToContent.css";
+
+
+/* components */
+/* @import "./components"; */
+@import "./components/button.css";
+@import "./components/background.css";
+@import "./components/hover.css";
+@import "./components/nav.css";
+@import "./components/form.css";
+@import "./components/card.css";
+@import "./components/stepper.css";
+@import "./components/shoppingCart.css";
+@import "./components/notification.css";
+@import "./components/banner.css";
+@import "./components/hero.css";
+@import "./components/bold.css";
+@import "./components/tableOfContents.css";
+@import "./components/codeblock.css";
+@import "./components/footer.css";
+@import "./components/a.css";
+
+/* layout */
+/* @import "./layout"; */
+@import "./layout/container.css";
+@import "./layout/aside.css";
+

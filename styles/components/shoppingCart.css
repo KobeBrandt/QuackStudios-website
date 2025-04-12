@@ -1,0 +1,47 @@
+.shoppingCart{
+    background-color: #f8f9fa;
+    padding: 2rem;
+    border-radius: 0.25rem;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    section {
+        margin-top: 1rem;
+    }
+    h2 {
+        margin-top: 0;
+    }
+    article {
+        margin-bottom: 1rem;
+    }
+    .big {
+        font-size: 1.25rem;
+        font-weight: bold;
+    }
+    .name{
+        display: flex;
+        a{
+            margin-inline-start: auto;
+            color: inherit;
+            padding-top: 1.1rem;
+        }
+    }
+    height: fit-content;
+}
+.yourOrder{
+    ul{
+        list-style: none;
+        padding: 0;
+    }
+    .price{
+        display: flex;
+        flex-direction: column;
+        width: fit-content;
+        margin-inline-start: auto;
+        p{
+            width: fit-content;
+            margin: 0;
+        }
+    }
+    .shipping{
+        line-height: 0;
+    }
+}
