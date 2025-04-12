@@ -1,4 +1,13 @@
-.aside-right{
+.divide{
+    @media (min-width: 46.875em) {
+        display: grid;
+        grid-template-columns: repeat(3, 1fr);
+    }
+    .first{
+        order: -1;
+    }
+}
+/* .right{
     grid-template-columns: repeat(3, 1fr);
     grid-column-gap: 3rem;
     main {
@@ -13,7 +22,7 @@
         grid-template-columns: repeat(3, 1fr);
     }
 }
-.aside-left{
+.left{
     grid-column-gap: 1rem;
     main {
         grid-column: 2 / 4;
@@ -28,3 +37,19 @@
         grid-template-columns: repeat(3, 1fr);
     }
 }
+.split-left{
+    grid-template-columns: repeat(3, 1fr);
+    grid-column-gap: 3rem;
+    .right{
+        grid-column: 2 / 4;
+    }
+    .left{
+        order: -1;
+        grid-column: 1;
+    }
+    @media (min-width: 46.875em) {
+        display: grid;
+        grid-template-columns: repeat(3, 1fr);
+    }
+} */
+

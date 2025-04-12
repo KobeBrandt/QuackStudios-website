@@ -38,14 +38,14 @@
         align-items: baseline;
         p{
             margin-right: auto;
-            margin-top: 0;
+            margin-top: 1rem;
             border: none;
             a{
                 text-align: initial;
             }
         }
         img{
-            width: 3rem;
+            width: 10rem;
         }
         ul{
             justify-content: right;

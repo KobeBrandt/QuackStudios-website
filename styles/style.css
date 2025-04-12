@@ -37,9 +37,11 @@
 @import "./components/codeblock.css";
 @import "./components/footer.css";
 @import "./components/a.css";
+@import "./components/highlight.css";
+@import "./components/intro.css";
 
 /* layout */
 /* @import "./layout"; */
 @import "./layout/container.css";
-@import "./layout/aside.css";
+@import "./layout/split.css";
 
