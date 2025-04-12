@@ -1,0 +1,30 @@
+.social{
+    list-style: none;
+    padding: 0;
+    display: flex;
+    flex-wrap: wrap;
+    gap: 3rem;
+    li{
+        position: relative;
+        border-left: 0.5rem var(--primary) solid;
+        padding-left: 0.5rem;
+        h3{
+            margin: 0;
+        }
+        p{
+            margin: 0;
+        }
+    }
+    .discord{
+        border-left-color: var(--discord);
+    }
+    .x{
+        border-left-color: var(--x);
+    }
+    .modrinth{
+        border-left-color: var(--modrinth);
+    }
+    .curseforge{
+        border-left-color: var(--curseforge);
+    }
+}

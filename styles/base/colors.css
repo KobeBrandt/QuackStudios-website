@@ -33,4 +33,9 @@
     --white: #ffffff;
     --light-gray: #d6d6d6;
 
+    /* social colors */
+    --discord: #5865f1;
+    --x: #000000;
+    --modrinth: #1bd96a;
+    --curseforge: #ff784d;
 }

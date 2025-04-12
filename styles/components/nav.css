@@ -17,6 +17,7 @@
     img{
         font-size: 2rem;
         border-radius: var(--round);
+        width: 75%;
     }
     ul{
         list-style: none;
