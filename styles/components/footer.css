@@ -14,15 +14,20 @@
         list-style: none;
         display: flex;
         justify-content: center;
-        li{
-            &::before{
-                content: "|";
-                margin-left: 0.5rem;
-                margin-right: 0.5rem;
-            }
-            &:first-child{
+        flex-direction: column;
+        padding: 0;
+        @media (min-width: 46.875em) {
+            flex-direction: row;
+            li{
                 &::before{
-                    content: none;
+                    content: "|";
+                    margin-left: 0.5rem;
+                    margin-right: 0.5rem;
+                }
+                &:first-child{
+                    &::before{
+                        content: none;
+                    }
                 }
             }
         }
