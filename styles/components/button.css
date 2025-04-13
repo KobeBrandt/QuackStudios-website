@@ -1,35 +1,36 @@
 .button{
+    display: inline-block;
     background-color: var(--primary);
     text-decoration: none;
     text-align: center;
-    color: var(--white);
+    color: var(--primary-text);
     padding: 0.5rem;
     font-weight: bold;
-    border-radius: 0.2rem;
+    border-radius: var(--round);
     margin: 1rem;
     border: 0;
-    @media (min-width: 46.875em) {
-        transition: box-shadow 0.3s ease-in-out;
-        &:hover{
-            box-shadow: 0rem 0rem 0.2rem var(--light-mode-text);
-        }
+    transition: transform 250ms;
+    &:hover {
+        transform: translateY(0.3rem);
     }
-    margin-left: 0;
 }
 .button-small{
     font-size: 75%;
+    padding: 0.25rem;
 }
 .button-large{
     font-size: 125%;
+    padding: 1rem;
 }
 .button-extra-large{
     font-size: 150%;
+    padding: 1.25rem;
 }
 .button-disabled{
     background-color: var(--disabled);
     opacity: 90%;
         &:hover{
-            box-shadow: none;
+            transform: none;
             cursor: not-allowed;
         }
 }

@@ -35,13 +35,16 @@
             margin-top: auto;
         }
         border: 0.1rem solid var(--primary);
-        /* box-shadow: 0.1rem 0.1rem 1rem 0.1rem var(--primary); */
     }
     @media (min-width: 46.875em) {
         flex-direction: row;
         flex-wrap: wrap;
         li{
             width: 30.7%;
+            transition: transform 250ms;
+            &:hover {
+                transform: translateY(0.3rem);
+            }
         }
     }
 }

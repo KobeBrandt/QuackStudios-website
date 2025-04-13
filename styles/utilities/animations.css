@@ -1,17 +1,20 @@
 @keyframes hover{
     0%{
-        transform: rotate(0deg);
-    }
-    25%{
-        transform: rotate(-5deg);
-    }
-    50%{
-        transform: rotate(0deg);
-    }
-    75%{
-        transform: rotate(5deg);
+        transform:translateY(0rem);
     }
     100%{
-        transform: rotate(5deg);
+        transform:translateY(-0.5rem);
     }
 }
+@keyframes hover-small{
+    0%{
+        transform:translateY(0rem);
+    }
+    100%{
+        transform:translateY(-0.5rem);
+    }
+}
+/* &:hover{
+    animation: hover 200ms linear 0s normal ;
+    animation-fill-mode: forwards;
+} */

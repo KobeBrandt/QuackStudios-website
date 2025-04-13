@@ -1,7 +1,7 @@
 :root{
     /* Colors */
-    --primary: #f9d258;
-    --primary-text: #ffffff;
+    --primary: #ffd700;
+    --primary-text: #000000;
     --error: #b50000;
     --alert: #c1da0b;
     --disabled: #494949;
@@ -38,4 +38,5 @@
     --x: #000000;
     --modrinth: #1bd96a;
     --curseforge: #ff784d;
+    --youtube: #ff0033;
 }

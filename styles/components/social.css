@@ -14,6 +14,12 @@
         p{
             margin: 0;
         }
+        @media (min-width: 46.875em) {
+            transition: transform 250ms;
+            &:hover {
+                transform: translateY(0.3rem);
+            }
+        }
     }
     .discord{
         border-left-color: var(--discord);
@@ -26,5 +32,8 @@
     }
     .curseforge{
         border-left-color: var(--curseforge);
+    }
+    .youtube{
+        border-left-color: var(--youtube);
     }
 }

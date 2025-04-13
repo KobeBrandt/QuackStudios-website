@@ -3,11 +3,27 @@
     padding: 1rem;
     text-align: center;
     P{
-        font-weight: bold;
         margin: 0;
     }
     max-width: var(--containerWidth);
     margin-inline: auto;
     padding-inline: var(--containerPadding);
     border-top: 0.2rem solid var(--primary);
+    .links{
+        list-style: none;
+        display: flex;
+        justify-content: center;
+        li{
+            &::before{
+                content: "|";
+                margin-left: 0.5rem;
+                margin-right: 0.5rem;
+            }
+            &:first-child{
+                &::before{
+                    content: none;
+                }
+            }
+        }
+    }
 }

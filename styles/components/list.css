@@ -1,0 +1,23 @@
+.list{
+    a{
+        display: inline-block;
+        @media (min-width: 46.875em) {
+            transition: transform 250ms;
+            &:hover {
+                transform: translateY(0.3rem);
+            }
+        }
+    }
+}
+.list-img{
+    list-style: none;
+    padding: 0;
+    li{
+        align-content: center;
+    }
+    img{
+        width: 15rem;
+    }
+    display: flex;
+    gap: 3rem;
+}

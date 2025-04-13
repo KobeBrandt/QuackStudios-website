@@ -1,16 +1,16 @@
 .hover{
     @media (min-width: 46.875em) {
-        transition: box-shadow 0.3s ease-in-out;
-        &:hover{
-            box-shadow: 0rem 0rem 0.2rem var(--light-mode-text);
+        transition: transform 250ms;
+        &:hover {
+            transform: translateY(0.3rem);
         }
     }
 }
 .hover-text{
     @media (min-width: 46.875em) {
-        transition: text-shadow 0.3s ease-in-out;
-        &:hover{
-            text-shadow: 0rem 0rem 0.2rem var(--light-mode-text);
+        transition: transform 250ms;
+        &:hover {
+            transform: translateY(0.1rem);
         }
     }
 }

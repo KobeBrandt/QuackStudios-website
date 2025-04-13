@@ -44,6 +44,10 @@
             a{
                 text-align: initial;
             }
+            transition: transform 250ms ;
+            &:hover {
+                transform: translateY(0.3rem);
+            }
         }
         img{
             width: 10rem;
@@ -56,8 +60,9 @@
             li{
                 border-bottom: none;
                 a{
-                    &:hover{
-                        animation: hover 1s ease-in-out;
+                    transition: transform 250ms;
+                    &:hover {
+                        transform: translateY(0.3rem);
                     }
                 }
             }
