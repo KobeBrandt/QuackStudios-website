@@ -7,6 +7,7 @@
     }
     img{
         width: 75%;
+        align-self: center;
     }
     .first{
         order: -1;
